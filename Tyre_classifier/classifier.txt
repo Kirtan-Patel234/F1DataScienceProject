@@ -1,0 +1,61 @@
+Classification Report:
+                      precision    recall  f1-score   support
+
+            Hard New       0.56      0.56      0.56    272176
+           Hard Used       0.00      0.00      0.00     33557
+    Intermediate New       0.59      0.41      0.49     57520
+   Intermediate Used       0.00      0.00      0.00      3454
+Lluvia Extrema Usado       0.00      0.00      0.00      3881
+          Medium New       0.44      0.76      0.55    383143
+         Medium Used       0.49      0.13      0.21    108748
+            Soft New       0.44      0.05      0.09     96781
+           Soft Used       0.42      0.29      0.34    159058
+             Wet New       0.46      0.22      0.30     14583
+
+            accuracy                           0.47   1132901
+           macro avg       0.34      0.24      0.25   1132901
+        weighted avg       0.46      0.47      0.43   1132901
+
+--------------------------------------------------
+Model: Decision Tree
+Accuracy: 0.4586773248500972
+Classification Report:
+                      precision    recall  f1-score   support
+
+            Hard New       0.51      0.66      0.57    272176
+           Hard Used       0.17      0.02      0.03     33557
+    Intermediate New       0.48      0.43      0.45     57520
+   Intermediate Used       0.10      0.01      0.02      3454
+Lluvia Extrema Usado       0.24      0.15      0.19      3881
+          Medium New       0.45      0.63      0.52    383143
+         Medium Used       0.41      0.14      0.21    108748
+            Soft New       0.29      0.09      0.14     96781
+           Soft Used       0.41      0.28      0.33    159058
+             Wet New       0.50      0.26      0.34     14583
+
+            accuracy                           0.46   1132901
+           macro avg       0.36      0.27      0.28   1132901
+        weighted avg       0.43      0.46      0.42   1132901
+
+--------------------------------------------------
+Model: Random Forest
+Accuracy: 0.4578158197406481
+Classification Report:
+                      precision    recall  f1-score   support
+
+            Hard New       0.52      0.63      0.57    272176
+           Hard Used       0.17      0.01      0.03     33557
+    Intermediate New       0.50      0.40      0.44     57520
+   Intermediate Used       0.14      0.02      0.03      3454
+Lluvia Extrema Usado       0.28      0.23      0.25      3881
+          Medium New       0.45      0.64      0.53    383143
+         Medium Used       0.40      0.15      0.22    108748
+            Soft New       0.28      0.10      0.15     96781
+           Soft Used       0.39      0.30      0.34    159058
+             Wet New       0.46      0.26      0.33     14583
+
+            accuracy                           0.46   1132901
+           macro avg       0.36      0.28      0.29   1132901
+        weighted avg       0.43      0.46      0.43   1132901
+
+--------------------------------------------------
